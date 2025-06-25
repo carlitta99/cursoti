@@ -1,0 +1,79 @@
+body{
+    color:#000e13;
+    background-color: #004853;
+    width: 940px;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    text-decoration: none;
+    font-family: impact;
+}
+.menu li{
+    padding: 10px;
+    margin: 5px;
+    list-style-type: none;
+    background-color: #003e5c;
+    border: solid 2px #000e13;
+    border-radius: 25px 5px 25px 5px;
+    box-shadow: 2.5px 5px 15px #000e13;
+}
+.menu a{
+    color:#90f0ff;
+    text-decoration: none;
+}
+.menu li:hover{
+    background-color: #fb6900;
+}
+.menu a:hover{
+    color:#000e13
+}
+div{
+    border: solid 15px #007e80;
+    background-color: #00b9bd;
+}
+.cabecalho{
+    display: flex;
+    padding: 25px;
+}
+.cont-cabecalho{
+    width: 50%;
+    border: 0;
+}
+.cabecalho h1, h3{
+    padding-left: 70px;
+}
+.foto{
+    width: 350px;
+    border-radius: 175px;
+    border: solid #000e13;
+    box-shadow: #b6e2f2 0px 0px 10px 10px;
+}
+#sobre{
+    text-align: justify;
+    padding: 0 10%;
+}
+#sobre h1{
+    text-align: center;
+}
+#servicos{
+    display: flex;
+}
+.servicos{
+    background-color: #003e5c;
+    height: 250px;
+    border: 1px solid #f9feff;
+    border-radius: 50px;
+    text-align: center;
+    color: #b6e2f2;
+    margin: 10px;
+    box-shadow: 2.5px 5px 15px #000e13;
+    padding: 15px;
+}
+.servicos:hover{
+    background-color: #279bd5;
+    color: #011c26;
+}
+.rodape{
+    text-align: center;
+}
